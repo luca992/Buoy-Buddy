@@ -30,8 +30,8 @@
 {
     [super viewDidLoad];
     [[[self viewControllers] objectAtIndex:0] setBuoyName:_buoyName];
-    //[[[self viewControllers] objectAtIndex:1] setBuoyName:_buoyName];
-    //[[[self viewControllers] objectAtIndex:2] setBuoyName:_buoyName];
+    [[[self viewControllers] objectAtIndex:1] setBuoyName:_buoyName];
+    [[[self viewControllers] objectAtIndex:2] setBuoyName:_buoyName];
 	// Do any additional setup after loading the view.
 }
 

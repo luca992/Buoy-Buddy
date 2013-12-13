@@ -286,11 +286,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Buoy Buddy/LMSBuoyBuddyModel.m"
-         timestampString = "408618061.440568"
+         timestampString = "408626077.47645"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "38"
-         endingLineNumber = "38"
+         startingLineNumber = "55"
+         endingLineNumber = "55"
          landmarkName = "-getBouyDataSource:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -299,16 +299,16 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Buoy Buddy/LMSBuoyBuddyModel.m"
-         timestampString = "408618061.440568"
+         timestampString = "408626077.47645"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "37"
-         endingLineNumber = "37"
+         startingLineNumber = "54"
+         endingLineNumber = "54"
          landmarkName = "@implementation LMSBuoyBuddyModel"
          landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Buoy Buddy/LMSBuoyDataViewController.m"
@@ -325,25 +325,116 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Buoy Buddy/LMSBuoyBuddyModel.m"
-         timestampString = "408617348.948876"
+         timestampString = "408625739.414689"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "16"
-         endingLineNumber = "16"
+         startingLineNumber = "22"
+         endingLineNumber = "22"
          landmarkName = "+sharedModel"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Buoy Buddy/LMSBuoyBuddyModel.m"
-         timestampString = "408618061.440568"
+         timestampString = "408625739.414689"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "30"
-         endingLineNumber = "30"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
          landmarkName = "-init"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Buoy Buddy/LMSNearshoreViewController.m"
+         timestampString = "408625739.414689"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "29"
+         endingLineNumber = "29"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Buoy Buddy/LMSBuoyDataTabBarViewController.m"
+         timestampString = "408622588.701918"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "34"
+         endingLineNumber = "34"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Buoy Buddy/LMSBuoyDataTabBarViewController.m"
+         timestampString = "408622590.126065"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "33"
+         endingLineNumber = "33"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Buoy Buddy/LMSBuoyDataTabBarViewController.m"
+         timestampString = "408623101.707494"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "35"
+         endingLineNumber = "35"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Buoy Buddy/LMSNearshoreViewController.m"
+         timestampString = "408627513.310987"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "52"
+         endingLineNumber = "52"
+         landmarkName = "-sliderChanged:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Buoy Buddy/LMSNearshoreViewController.m"
+         timestampString = "408625739.414689"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "27"
+         endingLineNumber = "27"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Buoy Buddy/LMSNearshoreViewController.m"
+         timestampString = "408627513.310987"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "44"
+         endingLineNumber = "44"
+         landmarkName = "-setBuoyName:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -16,6 +16,8 @@
 		516FA8451859615A0017E1E8 /* LMSAllBuoySelectBuoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FA844185961590017E1E8 /* LMSAllBuoySelectBuoyViewController.m */; };
 		519E157718592DC40072F4F0 /* LMSFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E157618592DC30072F4F0 /* LMSFavoritesViewController.m */; };
 		51BF1A57185AF292003FB508 /* LMSBuoyBuddyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF1A56185AF291003FB508 /* LMSBuoyBuddyModel.m */; };
+		51BF1A5E185B07DD003FB508 /* LMSTidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF1A5D185B07DD003FB508 /* LMSTidesViewController.m */; };
+		51BF1A61185B0807003FB508 /* LMSNearshoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF1A60185B0807003FB508 /* LMSNearshoreViewController.m */; };
 		56A4EF3E184D2B9300141FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF3D184D2B9300141FA8 /* Foundation.framework */; };
 		56A4EF40184D2B9300141FA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF3F184D2B9300141FA8 /* CoreGraphics.framework */; };
 		56A4EF42184D2B9300141FA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF41184D2B9300141FA8 /* UIKit.framework */; };
@@ -61,6 +63,10 @@
 		519E157618592DC30072F4F0 /* LMSFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSFavoritesViewController.m; sourceTree = "<group>"; };
 		51BF1A55185AF290003FB508 /* LMSBuoyBuddyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBuoyBuddyModel.h; sourceTree = "<group>"; };
 		51BF1A56185AF291003FB508 /* LMSBuoyBuddyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBuoyBuddyModel.m; sourceTree = "<group>"; };
+		51BF1A5C185B07DC003FB508 /* LMSTidesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSTidesViewController.h; sourceTree = "<group>"; };
+		51BF1A5D185B07DD003FB508 /* LMSTidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSTidesViewController.m; sourceTree = "<group>"; };
+		51BF1A5F185B0807003FB508 /* LMSNearshoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSNearshoreViewController.h; sourceTree = "<group>"; };
+		51BF1A60185B0807003FB508 /* LMSNearshoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSNearshoreViewController.m; sourceTree = "<group>"; };
 		56A4EF3A184D2B9300141FA8 /* Buoy Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buoy Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A4EF3D184D2B9300141FA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56A4EF3F184D2B9300141FA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +119,10 @@
 			children = (
 				513C1C1D185A9EBE003FD7CA /* LMSBuoyDataViewController.h */,
 				513C1C1E185A9EBE003FD7CA /* LMSBuoyDataViewController.m */,
+				51BF1A5F185B0807003FB508 /* LMSNearshoreViewController.h */,
+				51BF1A60185B0807003FB508 /* LMSNearshoreViewController.m */,
+				51BF1A5C185B07DC003FB508 /* LMSTidesViewController.h */,
+				51BF1A5D185B07DD003FB508 /* LMSTidesViewController.m */,
 				513C1C20185AA63B003FD7CA /* LMSCell.h */,
 				513C1C21185AA63B003FD7CA /* LMSCell.m */,
 				51067991185AD6C20065B500 /* LMSBuoyDataTabBarViewController.h */,
@@ -325,6 +335,8 @@
 				513C1C22185AA63B003FD7CA /* LMSCell.m in Sources */,
 				51067993185AD6C20065B500 /* LMSBuoyDataTabBarViewController.m in Sources */,
 				51BF1A57185AF292003FB508 /* LMSBuoyBuddyModel.m in Sources */,
+				51BF1A5E185B07DD003FB508 /* LMSTidesViewController.m in Sources */,
+				51BF1A61185B0807003FB508 /* LMSNearshoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

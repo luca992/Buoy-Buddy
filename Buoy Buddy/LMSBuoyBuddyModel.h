@@ -10,5 +10,7 @@
 
 @interface LMSBuoyBuddyModel : NSObject
 - (NSString*)getBouyDataSource: (NSString*)keyForBuoyDataSource;
+- (NSArray *) getBouyNearshoreSources: (NSString *) keyForBuoyNearshoreSources;
+
 + (instancetype) sharedModel;
 @end
