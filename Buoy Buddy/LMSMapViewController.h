@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MapKit/Mapkit.h"
 
-@interface LMSMapViewController : UIViewController
+
+@interface LMSMapViewController : UIViewController <MKMapViewDelegate>
 
 @end

@@ -18,6 +18,14 @@
 		51BF1A57185AF292003FB508 /* LMSBuoyBuddyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF1A56185AF291003FB508 /* LMSBuoyBuddyModel.m */; };
 		51BF1A5E185B07DD003FB508 /* LMSTidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF1A5D185B07DD003FB508 /* LMSTidesViewController.m */; };
 		51BF1A61185B0807003FB508 /* LMSNearshoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF1A60185B0807003FB508 /* LMSNearshoreViewController.m */; };
+		51BF1A63185B33FE003FB508 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BF1A62185B33FD003FB508 /* CoreLocation.framework */; };
+		51BF1A65185B57C8003FB508 /* buoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BF1A64185B57C7003FB508 /* buoy.png */; };
+		51BF1A69185B5924003FB508 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BF1A67185B5924003FB508 /* first.png */; };
+		51BF1A6A185B5924003FB508 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BF1A68185B5924003FB508 /* first@2x.png */; };
+		51BF1A6D185B592E003FB508 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BF1A6B185B592E003FB508 /* second.png */; };
+		51BF1A6E185B592E003FB508 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BF1A6C185B592E003FB508 /* second@2x.png */; };
+		51BF1A70185B5C1A003FB508 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BF1A6F185B5C19003FB508 /* Icon.png */; };
+		51BF1A72185B5C57003FB508 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BF1A71185B5C57003FB508 /* Icon@2x.png */; };
 		56A4EF3E184D2B9300141FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF3D184D2B9300141FA8 /* Foundation.framework */; };
 		56A4EF40184D2B9300141FA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF3F184D2B9300141FA8 /* CoreGraphics.framework */; };
 		56A4EF42184D2B9300141FA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF41184D2B9300141FA8 /* UIKit.framework */; };
@@ -67,6 +75,14 @@
 		51BF1A5D185B07DD003FB508 /* LMSTidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSTidesViewController.m; sourceTree = "<group>"; };
 		51BF1A5F185B0807003FB508 /* LMSNearshoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSNearshoreViewController.h; sourceTree = "<group>"; };
 		51BF1A60185B0807003FB508 /* LMSNearshoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSNearshoreViewController.m; sourceTree = "<group>"; };
+		51BF1A62185B33FD003FB508 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		51BF1A64185B57C7003FB508 /* buoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buoy.png; path = Images.xcassets/AppIcon.appiconset/buoy.png; sourceTree = "<group>"; };
+		51BF1A67185B5924003FB508 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = first.png; path = Images.xcassets/first.imageset/first.png; sourceTree = "<group>"; };
+		51BF1A68185B5924003FB508 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "first@2x.png"; path = "Images.xcassets/first.imageset/first@2x.png"; sourceTree = "<group>"; };
+		51BF1A6B185B592E003FB508 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = second.png; path = Images.xcassets/second.imageset/second.png; sourceTree = "<group>"; };
+		51BF1A6C185B592E003FB508 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "second@2x.png"; path = "Images.xcassets/second.imageset/second@2x.png"; sourceTree = "<group>"; };
+		51BF1A6F185B5C19003FB508 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		51BF1A71185B5C57003FB508 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		56A4EF3A184D2B9300141FA8 /* Buoy Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buoy Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A4EF3D184D2B9300141FA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56A4EF3F184D2B9300141FA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BF1A63185B33FE003FB508 /* CoreLocation.framework in Frameworks */,
 				56A4EF79184D357100141FA8 /* MapKit.framework in Frameworks */,
 				56A4EF40184D2B9300141FA8 /* CoreGraphics.framework in Frameworks */,
 				56A4EF42184D2B9300141FA8 /* UIKit.framework in Frameworks */,
@@ -140,9 +157,24 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		51BF1A66185B5806003FB508 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51BF1A6B185B592E003FB508 /* second.png */,
+				51BF1A6C185B592E003FB508 /* second@2x.png */,
+				51BF1A64185B57C7003FB508 /* buoy.png */,
+				51BF1A67185B5924003FB508 /* first.png */,
+				51BF1A68185B5924003FB508 /* first@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		56A4EF31184D2B9300141FA8 = {
 			isa = PBXGroup;
 			children = (
+				51BF1A71185B5C57003FB508 /* Icon@2x.png */,
+				51BF1A6F185B5C19003FB508 /* Icon.png */,
+				51BF1A62185B33FD003FB508 /* CoreLocation.framework */,
 				516FA83E185936770017E1E8 /* Default-568h@2x.png */,
 				56A4EF43184D2B9300141FA8 /* Buoy Buddy */,
 				56A4EF65184D2B9300141FA8 /* Buoy BuddyTests */,
@@ -175,6 +207,7 @@
 		56A4EF43184D2B9300141FA8 /* Buoy Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				51BF1A66185B5806003FB508 /* Resources */,
 				51BF1A58185AFD53003FB508 /* Models */,
 				513C1C14185A6B14003FD7CA /* DetailedBuoyViews */,
 				56A4EF4C184D2B9300141FA8 /* LMSAppDelegate.h */,
@@ -306,6 +339,13 @@
 				56A4EF48184D2B9300141FA8 /* InfoPlist.strings in Resources */,
 				56A4EF51184D2B9300141FA8 /* Main.storyboard in Resources */,
 				516FA83F185936770017E1E8 /* Default-568h@2x.png in Resources */,
+				51BF1A65185B57C8003FB508 /* buoy.png in Resources */,
+				51BF1A69185B5924003FB508 /* first.png in Resources */,
+				51BF1A6A185B5924003FB508 /* first@2x.png in Resources */,
+				51BF1A6D185B592E003FB508 /* second.png in Resources */,
+				51BF1A6E185B592E003FB508 /* second@2x.png in Resources */,
+				51BF1A70185B5C1A003FB508 /* Icon.png in Resources */,
+				51BF1A72185B5C57003FB508 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,21 +34,7 @@
     self.buoyBuddyModel = [LMSBuoyBuddyModel sharedModel];
     _chartHeaders = [NSArray arrayWithObjects:@"MM/DD", @"Time", @"WVHT", @"SwH", @"SwP", @"WWH", @"WWP", @"SwD", @"WWD", @"STEEP",@"APD",@"MWD", nil];
     
-    NSError *err = nil;
-
-        NSString *url = [[self.buoyBuddyModel getBouyDataSource:_buoyName] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-        NSString *buoyData = [NSString stringWithContentsOfURL:[NSURL URLWithString:url] encoding:NSUTF8StringEncoding error:&err];
-        if(err != nil) {
-            //HANDLE ERROR HERE
-        }
-        NSCharacterSet *whitespaces = [NSCharacterSet whitespaceCharacterSet];
-        NSPredicate *noEmptyStrings = [NSPredicate predicateWithFormat:@"SELF != ''"];
-        
-        NSArray *parts = [buoyData componentsSeparatedByCharactersInSet:whitespaces];
-        NSArray *filteredArray = [parts filteredArrayUsingPredicate:noEmptyStrings];
-        buoyData = [filteredArray componentsJoinedByString:@" "];
-        _parsedBuoyData = [buoyData componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-
+    _parsedBuoyData = [_buoyBuddyModel getParsedBuoyData:_buoyName];
     
     
 

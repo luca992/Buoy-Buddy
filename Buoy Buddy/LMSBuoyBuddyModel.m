@@ -56,7 +56,25 @@
 {
     return [_bouyDataSources objectForKey:keyForBuoyDataSource];
 }
+- (NSArray *) getParsedBuoyData: (NSString*) buoyName
+{
+    
+    NSError *err = nil;
+    
+    NSString *url = [[self getBouyDataSource:buoyName] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString *buoyData = [NSString stringWithContentsOfURL:[NSURL URLWithString:url] encoding:NSUTF8StringEncoding error:&err];
+    if(err != nil) {
+        //HANDLE ERROR HERE
+    }
+    NSCharacterSet *whitespaces = [NSCharacterSet whitespaceCharacterSet];
+    NSPredicate *noEmptyStrings = [NSPredicate predicateWithFormat:@"SELF != ''"];
+    
+    NSArray *parts = [buoyData componentsSeparatedByCharactersInSet:whitespaces];
+    NSArray *filteredArray = [parts filteredArrayUsingPredicate:noEmptyStrings];
+    buoyData = [filteredArray componentsJoinedByString:@" "];
+    return [buoyData componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 
+}
 - (NSArray *) getBouyNearshoreSources: (NSString *) keyForBuoyNearshoreSources
 {
         UIImage *image;
