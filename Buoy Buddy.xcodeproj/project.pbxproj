@@ -121,6 +121,15 @@
 			name = DetailedBuoyViews;
 			sourceTree = "<group>";
 		};
+		51BF1A58185AFD53003FB508 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51BF1A55185AF290003FB508 /* LMSBuoyBuddyModel.h */,
+				51BF1A56185AF291003FB508 /* LMSBuoyBuddyModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		56A4EF31184D2B9300141FA8 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +165,7 @@
 		56A4EF43184D2B9300141FA8 /* Buoy Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				51BF1A58185AFD53003FB508 /* Models */,
 				513C1C14185A6B14003FD7CA /* DetailedBuoyViews */,
 				56A4EF4C184D2B9300141FA8 /* LMSAppDelegate.h */,
 				56A4EF4D184D2B9300141FA8 /* LMSAppDelegate.m */,
@@ -170,8 +180,6 @@
 				516FA841185960C70017E1E8 /* LMSAllBuoyStateSelectViewController.m */,
 				516FA843185961590017E1E8 /* LMSAllBuoySelectBuoyViewController.h */,
 				516FA844185961590017E1E8 /* LMSAllBuoySelectBuoyViewController.m */,
-				51BF1A55185AF290003FB508 /* LMSBuoyBuddyModel.h */,
-				51BF1A56185AF291003FB508 /* LMSBuoyBuddyModel.m */,
 				56A4EF58184D2B9300141FA8 /* Images.xcassets */,
 				56A4EF44184D2B9300141FA8 /* Supporting Files */,
 			);

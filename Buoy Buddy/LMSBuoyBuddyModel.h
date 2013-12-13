@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface LMSBuoyBuddyModel : NSObject
-
+- (NSString*)getBouyDataSource: (NSString*)keyForBuoyDataSource;
++ (instancetype) sharedModel;
 @end

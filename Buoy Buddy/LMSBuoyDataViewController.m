@@ -8,10 +8,10 @@
 
 #import "LMSBuoyDataViewController.h"
 #import "LMSCell.h"
-
+#import "LMSBuoyBuddyModel.h"
 @interface LMSBuoyDataViewController ()
 
-
+@property (strong, nonatomic) LMSBuoyBuddyModel *buoyBuddyModel;
 @property (nonatomic,strong) NSArray *parsedBuoyData;
 @property (nonatomic, weak) NSString *buoyName;
 @property (nonatomic,strong) NSArray *chartHeaders;
@@ -31,11 +31,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.buoyBuddyModel = [LMSBuoyBuddyModel sharedModel];
     _chartHeaders = [NSArray arrayWithObjects:@"MM/DD", @"Time", @"WVHT", @"SwH", @"SwP", @"WWH", @"WWP", @"SwD", @"WWD", @"STEEP",@"APD",@"MWD", nil];
     
     NSError *err = nil;
-    if([_buoyName isEqual: @"Block Island Buoy"]){
-        NSString *url = [[NSString stringWithFormat:@"http://www.ndbc.noaa.gov/data/realtime2/44097.spec"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+
+        NSString *url = [[self.buoyBuddyModel getBouyDataSource:_buoyName] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         NSString *buoyData = [NSString stringWithContentsOfURL:[NSURL URLWithString:url] encoding:NSUTF8StringEncoding error:&err];
         if(err != nil) {
             //HANDLE ERROR HERE
@@ -47,7 +48,7 @@
         NSArray *filteredArray = [parts filteredArrayUsingPredicate:noEmptyStrings];
         buoyData = [filteredArray componentsJoinedByString:@" "];
         _parsedBuoyData = [buoyData componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    }
+
     
     
 
