@@ -2,9 +2,10 @@
 //  LMSAppDelegate.m
 //  Buoy Buddy
 //
-//  Created by ITP Student on 12/2/13.
+//  Created by Luca Spinazzola on 12/2/13.
 //  Copyright (c) 2013 ITP Student. All rights reserved.
 //
+//spinazzo@usc.edu
 
 #import "LMSAppDelegate.h"
 
