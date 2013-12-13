@@ -1,5 +1,5 @@
 //
-//  LMSFirstViewController.h
+//  LMSSecondViewController.h
 //  Buoy Buddy
 //
 //  Created by ITP Student on 12/2/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LMSFirstViewController : UIViewController
+@interface LMSMapViewController : UIViewController
 
 @end

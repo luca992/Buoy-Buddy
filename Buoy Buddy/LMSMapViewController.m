@@ -6,13 +6,16 @@
 //  Copyright (c) 2013 ITP Student. All rights reserved.
 //
 
-#import "LMSSecondViewController.h"
+#import "LMSMapViewController.h"
+#import "MapKit/Mapkit.h"
 
-@interface LMSSecondViewController ()
+
+@interface LMSMapViewController ()
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end
 
-@implementation LMSSecondViewController
+@implementation LMSMapViewController
 
 - (void)viewDidLoad
 {

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51067993185AD6C20065B500 /* LMSBuoyDataTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51067992185AD6C20065B500 /* LMSBuoyDataTabBarViewController.m */; };
+		513C1C1F185A9EBE003FD7CA /* LMSBuoyDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513C1C1E185A9EBE003FD7CA /* LMSBuoyDataViewController.m */; };
+		513C1C22185AA63B003FD7CA /* LMSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 513C1C21185AA63B003FD7CA /* LMSCell.m */; };
+		516FA83D1859355C0017E1E8 /* LMSAllBouyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FA83C1859355C0017E1E8 /* LMSAllBouyViewController.m */; };
+		516FA83F185936770017E1E8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 516FA83E185936770017E1E8 /* Default-568h@2x.png */; };
+		516FA842185960C70017E1E8 /* LMSAllBuoyStateSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FA841185960C70017E1E8 /* LMSAllBuoyStateSelectViewController.m */; };
+		516FA8451859615A0017E1E8 /* LMSAllBuoySelectBuoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FA844185961590017E1E8 /* LMSAllBuoySelectBuoyViewController.m */; };
+		519E157718592DC40072F4F0 /* LMSFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E157618592DC30072F4F0 /* LMSFavoritesViewController.m */; };
+		51BF1A57185AF292003FB508 /* LMSBuoyBuddyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF1A56185AF291003FB508 /* LMSBuoyBuddyModel.m */; };
 		56A4EF3E184D2B9300141FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF3D184D2B9300141FA8 /* Foundation.framework */; };
 		56A4EF40184D2B9300141FA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF3F184D2B9300141FA8 /* CoreGraphics.framework */; };
 		56A4EF42184D2B9300141FA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF41184D2B9300141FA8 /* UIKit.framework */; };
@@ -14,14 +23,14 @@
 		56A4EF4A184D2B9300141FA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4EF49184D2B9300141FA8 /* main.m */; };
 		56A4EF4E184D2B9300141FA8 /* LMSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4EF4D184D2B9300141FA8 /* LMSAppDelegate.m */; };
 		56A4EF51184D2B9300141FA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A4EF4F184D2B9300141FA8 /* Main.storyboard */; };
-		56A4EF54184D2B9300141FA8 /* LMSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4EF53184D2B9300141FA8 /* LMSFirstViewController.m */; };
-		56A4EF57184D2B9300141FA8 /* LMSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4EF56184D2B9300141FA8 /* LMSSecondViewController.m */; };
+		56A4EF57184D2B9300141FA8 /* LMSMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4EF56184D2B9300141FA8 /* LMSMapViewController.m */; };
 		56A4EF59184D2B9300141FA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A4EF58184D2B9300141FA8 /* Images.xcassets */; };
 		56A4EF60184D2B9300141FA8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF5F184D2B9300141FA8 /* XCTest.framework */; };
 		56A4EF61184D2B9300141FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF3D184D2B9300141FA8 /* Foundation.framework */; };
 		56A4EF62184D2B9300141FA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF41184D2B9300141FA8 /* UIKit.framework */; };
 		56A4EF6A184D2B9300141FA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56A4EF68184D2B9300141FA8 /* InfoPlist.strings */; };
 		56A4EF6C184D2B9300141FA8 /* Buoy_BuddyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4EF6B184D2B9300141FA8 /* Buoy_BuddyTests.m */; };
+		56A4EF79184D357100141FA8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EF78184D357100141FA8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51067991185AD6C20065B500 /* LMSBuoyDataTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBuoyDataTabBarViewController.h; sourceTree = "<group>"; };
+		51067992185AD6C20065B500 /* LMSBuoyDataTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBuoyDataTabBarViewController.m; sourceTree = "<group>"; };
+		513C1C1D185A9EBE003FD7CA /* LMSBuoyDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBuoyDataViewController.h; sourceTree = "<group>"; };
+		513C1C1E185A9EBE003FD7CA /* LMSBuoyDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBuoyDataViewController.m; sourceTree = "<group>"; };
+		513C1C20185AA63B003FD7CA /* LMSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSCell.h; sourceTree = "<group>"; };
+		513C1C21185AA63B003FD7CA /* LMSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSCell.m; sourceTree = "<group>"; };
+		516FA83B1859355C0017E1E8 /* LMSAllBouyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSAllBouyViewController.h; sourceTree = "<group>"; };
+		516FA83C1859355C0017E1E8 /* LMSAllBouyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSAllBouyViewController.m; sourceTree = "<group>"; };
+		516FA83E185936770017E1E8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		516FA840185960C70017E1E8 /* LMSAllBuoyStateSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSAllBuoyStateSelectViewController.h; sourceTree = "<group>"; };
+		516FA841185960C70017E1E8 /* LMSAllBuoyStateSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSAllBuoyStateSelectViewController.m; sourceTree = "<group>"; };
+		516FA843185961590017E1E8 /* LMSAllBuoySelectBuoyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSAllBuoySelectBuoyViewController.h; sourceTree = "<group>"; };
+		516FA844185961590017E1E8 /* LMSAllBuoySelectBuoyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSAllBuoySelectBuoyViewController.m; sourceTree = "<group>"; };
+		519E157518592DC30072F4F0 /* LMSFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSFavoritesViewController.h; sourceTree = "<group>"; };
+		519E157618592DC30072F4F0 /* LMSFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSFavoritesViewController.m; sourceTree = "<group>"; };
+		51BF1A55185AF290003FB508 /* LMSBuoyBuddyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBuoyBuddyModel.h; sourceTree = "<group>"; };
+		51BF1A56185AF291003FB508 /* LMSBuoyBuddyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBuoyBuddyModel.m; sourceTree = "<group>"; };
 		56A4EF3A184D2B9300141FA8 /* Buoy Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buoy Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A4EF3D184D2B9300141FA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56A4EF3F184D2B9300141FA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +72,15 @@
 		56A4EF4C184D2B9300141FA8 /* LMSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMSAppDelegate.h; sourceTree = "<group>"; };
 		56A4EF4D184D2B9300141FA8 /* LMSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMSAppDelegate.m; sourceTree = "<group>"; };
 		56A4EF50184D2B9300141FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		56A4EF52184D2B9300141FA8 /* LMSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMSFirstViewController.h; sourceTree = "<group>"; };
-		56A4EF53184D2B9300141FA8 /* LMSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMSFirstViewController.m; sourceTree = "<group>"; };
-		56A4EF55184D2B9300141FA8 /* LMSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMSSecondViewController.h; sourceTree = "<group>"; };
-		56A4EF56184D2B9300141FA8 /* LMSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMSSecondViewController.m; sourceTree = "<group>"; };
+		56A4EF55184D2B9300141FA8 /* LMSMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMSMapViewController.h; sourceTree = "<group>"; };
+		56A4EF56184D2B9300141FA8 /* LMSMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMSMapViewController.m; sourceTree = "<group>"; };
 		56A4EF58184D2B9300141FA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		56A4EF5E184D2B9300141FA8 /* Buoy BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buoy BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A4EF5F184D2B9300141FA8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		56A4EF67184D2B9300141FA8 /* Buoy BuddyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Buoy BuddyTests-Info.plist"; sourceTree = "<group>"; };
 		56A4EF69184D2B9300141FA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56A4EF6B184D2B9300141FA8 /* Buoy_BuddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Buoy_BuddyTests.m; sourceTree = "<group>"; };
+		56A4EF78184D357100141FA8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A4EF79184D357100141FA8 /* MapKit.framework in Frameworks */,
 				56A4EF40184D2B9300141FA8 /* CoreGraphics.framework in Frameworks */,
 				56A4EF42184D2B9300141FA8 /* UIKit.framework in Frameworks */,
 				56A4EF3E184D2B9300141FA8 /* Foundation.framework in Frameworks */,
@@ -82,9 +108,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		513C1C14185A6B14003FD7CA /* DetailedBuoyViews */ = {
+			isa = PBXGroup;
+			children = (
+				513C1C1D185A9EBE003FD7CA /* LMSBuoyDataViewController.h */,
+				513C1C1E185A9EBE003FD7CA /* LMSBuoyDataViewController.m */,
+				513C1C20185AA63B003FD7CA /* LMSCell.h */,
+				513C1C21185AA63B003FD7CA /* LMSCell.m */,
+				51067991185AD6C20065B500 /* LMSBuoyDataTabBarViewController.h */,
+				51067992185AD6C20065B500 /* LMSBuoyDataTabBarViewController.m */,
+			);
+			name = DetailedBuoyViews;
+			sourceTree = "<group>";
+		};
 		56A4EF31184D2B9300141FA8 = {
 			isa = PBXGroup;
 			children = (
+				516FA83E185936770017E1E8 /* Default-568h@2x.png */,
 				56A4EF43184D2B9300141FA8 /* Buoy Buddy */,
 				56A4EF65184D2B9300141FA8 /* Buoy BuddyTests */,
 				56A4EF3C184D2B9300141FA8 /* Frameworks */,
@@ -104,6 +144,7 @@
 		56A4EF3C184D2B9300141FA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56A4EF78184D357100141FA8 /* MapKit.framework */,
 				56A4EF3D184D2B9300141FA8 /* Foundation.framework */,
 				56A4EF3F184D2B9300141FA8 /* CoreGraphics.framework */,
 				56A4EF41184D2B9300141FA8 /* UIKit.framework */,
@@ -115,13 +156,22 @@
 		56A4EF43184D2B9300141FA8 /* Buoy Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				513C1C14185A6B14003FD7CA /* DetailedBuoyViews */,
 				56A4EF4C184D2B9300141FA8 /* LMSAppDelegate.h */,
 				56A4EF4D184D2B9300141FA8 /* LMSAppDelegate.m */,
 				56A4EF4F184D2B9300141FA8 /* Main.storyboard */,
-				56A4EF52184D2B9300141FA8 /* LMSFirstViewController.h */,
-				56A4EF53184D2B9300141FA8 /* LMSFirstViewController.m */,
-				56A4EF55184D2B9300141FA8 /* LMSSecondViewController.h */,
-				56A4EF56184D2B9300141FA8 /* LMSSecondViewController.m */,
+				519E157518592DC30072F4F0 /* LMSFavoritesViewController.h */,
+				519E157618592DC30072F4F0 /* LMSFavoritesViewController.m */,
+				56A4EF55184D2B9300141FA8 /* LMSMapViewController.h */,
+				56A4EF56184D2B9300141FA8 /* LMSMapViewController.m */,
+				516FA83B1859355C0017E1E8 /* LMSAllBouyViewController.h */,
+				516FA83C1859355C0017E1E8 /* LMSAllBouyViewController.m */,
+				516FA840185960C70017E1E8 /* LMSAllBuoyStateSelectViewController.h */,
+				516FA841185960C70017E1E8 /* LMSAllBuoyStateSelectViewController.m */,
+				516FA843185961590017E1E8 /* LMSAllBuoySelectBuoyViewController.h */,
+				516FA844185961590017E1E8 /* LMSAllBuoySelectBuoyViewController.m */,
+				51BF1A55185AF290003FB508 /* LMSBuoyBuddyModel.h */,
+				51BF1A56185AF291003FB508 /* LMSBuoyBuddyModel.m */,
 				56A4EF58184D2B9300141FA8 /* Images.xcassets */,
 				56A4EF44184D2B9300141FA8 /* Supporting Files */,
 			);
@@ -237,6 +287,7 @@
 				56A4EF59184D2B9300141FA8 /* Images.xcassets in Resources */,
 				56A4EF48184D2B9300141FA8 /* InfoPlist.strings in Resources */,
 				56A4EF51184D2B9300141FA8 /* Main.storyboard in Resources */,
+				516FA83F185936770017E1E8 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +308,15 @@
 			files = (
 				56A4EF4A184D2B9300141FA8 /* main.m in Sources */,
 				56A4EF4E184D2B9300141FA8 /* LMSAppDelegate.m in Sources */,
-				56A4EF54184D2B9300141FA8 /* LMSFirstViewController.m in Sources */,
-				56A4EF57184D2B9300141FA8 /* LMSSecondViewController.m in Sources */,
+				56A4EF57184D2B9300141FA8 /* LMSMapViewController.m in Sources */,
+				519E157718592DC40072F4F0 /* LMSFavoritesViewController.m in Sources */,
+				516FA83D1859355C0017E1E8 /* LMSAllBouyViewController.m in Sources */,
+				516FA842185960C70017E1E8 /* LMSAllBuoyStateSelectViewController.m in Sources */,
+				516FA8451859615A0017E1E8 /* LMSAllBuoySelectBuoyViewController.m in Sources */,
+				513C1C1F185A9EBE003FD7CA /* LMSBuoyDataViewController.m in Sources */,
+				513C1C22185AA63B003FD7CA /* LMSCell.m in Sources */,
+				51067993185AD6C20065B500 /* LMSBuoyDataTabBarViewController.m in Sources */,
+				51BF1A57185AF292003FB508 /* LMSBuoyBuddyModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Buoy Buddy/Buoy Buddy-Prefix.pch";
 				INFOPLIST_FILE = "Buoy Buddy/Buoy Buddy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,6 +460,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Buoy Buddy/Buoy Buddy-Prefix.pch";
 				INFOPLIST_FILE = "Buoy Buddy/Buoy Buddy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -467,6 +527,7 @@
 				56A4EF71184D2B9300141FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56A4EF72184D2B9300141FA8 /* Build configuration list for PBXNativeTarget "Buoy BuddyTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +536,7 @@
 				56A4EF74184D2B9300141FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
